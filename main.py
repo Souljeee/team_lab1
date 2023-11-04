@@ -40,7 +40,7 @@ title_label = tk.Label(root, text="Название:")
 author_label = tk.Label(root, text="Автор:")
 title_entry = tk.Entry(root)
 author_entry = tk.Entry(root)
-add_button = tk.Button(root, text="Добавить", command=add_book)
+add_button = tk.Button(root, text="Добавить книгу", command=add_book)
 
 add_label.pack()
 title_label.pack()
