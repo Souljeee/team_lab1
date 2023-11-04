@@ -52,7 +52,7 @@ add_button.pack()
 # Создаем интерфейс для бронирования и удаления книг
 reserve_label = tk.Label(root, text="Бронировать/Удалить книгу")
 book_listbox = tk.Listbox(root)
-reserve_button = tk.Button(root, text="Бронировать", command=reserve_book)
+reserve_button = tk.Button(root, text="Бронировать книгу", command=reserve_book)
 delete_button = tk.Button(root, text="Удалить", command=delete_book)
 
 reserve_label.pack()
