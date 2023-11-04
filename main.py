@@ -53,7 +53,7 @@ add_button.pack()
 reserve_label = tk.Label(root, text="Бронировать/Удалить книгу")
 book_listbox = tk.Listbox(root)
 reserve_button = tk.Button(root, text="Бронировать книгу", command=reserve_book)
-delete_button = tk.Button(root, text="Удалить", command=delete_book)
+delete_button = tk.Button(root, text="Удалить книгу", command=delete_book)
 
 reserve_label.pack()
 book_listbox.pack()
